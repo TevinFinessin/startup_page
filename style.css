@@ -1,0 +1,65 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  /* background: url(https://images.pexels.com/photos/3188/love-romantic-bath-candlelight.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat center center fixed;  */
+  /* -webkit-background-size: cover; */
+  /* -moz-background-size: cover; */
+  /* -o-background-size: cover; */
+  /* background-size: cover; */
+   background: rgba(30, 29, 31, 0.5); 
+   /* background-image: linear-gradient(90deg, */
+   /* rgba(255,0,0.35),  */
+   /* rgba(0,0,255.35)); */
+}
+
+#video-bg {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+   background: rgba(0, 0, 0, 0.5);
+  /* background-image: linear-gradient(90deg, */
+  /* rgba(255,0,0.35), */
+  /* rgba(0,0,255.35)); */
+}
+
+ h1 {
+  font-size: 3rem;
+  color: #fffafa;
+}
+
+hr {
+  border-color: red;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+
+}
+
+.btn-success {
+  background-color: royalblue;
+  border-color: royalblue;
+}
+
+.btn-success:hover {
+  background-color: #ee0bae;
+  border-color: #ee0bae;
+  border-width: 4px;
+}
